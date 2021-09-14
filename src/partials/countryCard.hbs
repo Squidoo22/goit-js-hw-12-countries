@@ -1,0 +1,21 @@
+<h1 class='country-header'>{{name}}</h1>
+<div class='country-wrapper'>
+  <div class='country-description'>
+    <p><span class='country-label'>Capital:</span> {{capital}}</p>
+    <p><span class='country-label'>Population:</span> {{population}}</p>
+    {{#if languages}}
+      <p><span class='country-label'>Languages:</span>
+        <ul class='countries-list'>
+          {{#each languages}}
+            <li class='countries-list-item'>{{name}}</li>
+          {{/each}}
+        </ul></p>
+    {{else}}
+      <p><span class='country-label'>Language:</span> {{languages.0.name}}</p>
+
+    {{/if}}
+
+  </div>
+
+  <img src='{{flag}}' alt='{{name}}' width='50%' />
+</div>
