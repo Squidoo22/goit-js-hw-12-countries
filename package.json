@@ -3,20 +3,20 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Squidoo22.github.io/goit-js-hw-12-countries",
+  "homepage": "https://squidoo22.github.io/goit-js-hw-12-countries",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Squidoo22/goit-js-hw-12-countries.git"
+    "url": "git+https://github.com/squidoo22/goit-js-hw-12-countries.git"
   },
   "keywords": [],
   "author": "Squidoo22",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Squidoo22/goit-js-hw-12-countries/issues"
+    "url": "https://github.com/squidoo22/goit-js-hw-12-countries/issues"
   },
   "devDependencies": {
     "@pnotify/core": "^5.2.0",
