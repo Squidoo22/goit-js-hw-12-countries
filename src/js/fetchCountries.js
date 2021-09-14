@@ -3,9 +3,8 @@ export default name => {
     `https://restcountries.eu/rest/v2/name/${name}?fields=name;capital;population;flag;languages`,
   )
     .then(res => {
-      return res.json();
+      if (res.ok) res.json();
+      return new Error(res.statusText);
     })
-    .catch(err => {
-      throw new Error(err.message);
-    });
+    .catch(err => console.log(err));
 };
